@@ -1,1 +1,2 @@
-# useful-commands
+# Services
+service --status-all
