@@ -11,4 +11,8 @@ end
 
 # config.sh for above file
 #!/usr/bin/env bash
-sudo yum groupinstall -y "Development Tools"
+# sudo yum groupinstall -y "Development Tools"
+sudo yum install -y vim-enhanced
+sudo yum install -y python3.11
+sudo yum install -y git
+sudo yum install -y golang
