@@ -8,3 +8,7 @@ Vagrant.configure("2") do |config|
   config.vm.synced_folder "/Users/xxx/wrk/netauto/", "/netauto"
   config.vm.provision "shell", path: "config.sh"
 end
+
+# config.sh for above file
+#!/usr/bin/env bash
+sudo yum groupinstall -y "Development Tools"
